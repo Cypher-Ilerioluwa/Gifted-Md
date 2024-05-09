@@ -6,20 +6,20 @@ global.audio = "";
 global.video = "https://telegra.ph/file/204481823350f368c1826.mp4";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "giftedmd@giftedtechnexus.co.ke";
+global.email = "cypherilerioluwa@gmail.com";
 global.location = "Lagos, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Nigeria";
 global.github = process.env.GITHUB || "https://github.com/mouricedevs/Gifted-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
+global.gurl = process.env.GURL || "https://wa.me/2349121881343";
+global.website = process.env.GURL || "http://cypherilerioluwa.unaux.com/";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg";
-global.devs = "254762016957,254110853827,254728746852,255655147353,254728782591";
-global.sudo = process.env.SUDO || "2348104656991, 2349121881343";
-global.owner = process.env.OWNER_NUMBER || "2348104656991, 2349121881343";
+global.devs = "2349151066117";
+global.sudo = process.env.SUDO || "2349151066117, 2349121881343";
+global.owner = process.env.OWNER_NUMBER || "2349151066117, 2349121881343";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -31,25 +31,25 @@ global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/a202f454
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "true";
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348104656991, 2349121881343";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2349151066117, 2349121881343";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "2348104656991, 2349121881343";
+global.read_status_from = process.env.READ_STATUS_FROM || "2349151066117, 2349121881343";
 
 global.api_smd = "https://api-smd.onrender.com";
 global.scan = "https://web.giftedtechnexus.co.ke";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "Gifted;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSU84Y2l1QkFJbWFtSURNbFNld0dVbUtRaXZWMDI4aXdyZjFkR2NoeFluQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNHZ1RUQ0RzdCditITGovQzcyNDVVM0JJQklxMkJVU2tqYmtEdjV4SzkxUT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRRWhUVTc0NXBJWmx2V0FHbmR5dGJoMnM0YjMraFNHOERNR1M5ZGdaWTNzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhb0d6UXNMYWdaMnJDTm9QTml1a0xUUGVFMVNEa3JYWm5JS1JTWXd4bHpFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZGblRSL2t0NjM5bmlBSjkrQXZ4b1RsaUlQMGRFNnliZzRsck9SSUdybkk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjNLazU0bk1DT2F2UXBKVllnTzNmeEVtbDgxNlJMUlpXRFhiVitsRmliMlU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibVBMUEN1NEV4UDdhTUx5UHpxVDhVWUxCSmVERW1vVkJSSUZmejNhdmxsND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTEF5Wjl0SE02VW1sS1V2ZVBqVGpZUzRkbjZvbkR3b2JxbXdvK0pleGR3az0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImJkQjJvR0JzY0NRYitlckVUQUtTWmlVN0xQS2hvNUpYWGxUb3JOc09rQnkrVzRFV0ovc2VEdU5uajFHNi9NbjVmSHE4Q0EwK3hka2NyNHc2Vm1weWpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjMyLCJhZHZTZWNyZXRLZXkiOiJwak1hSC8zVXJqQWhZMUlHbFNYK210TnBlRGdyTVlxZzZDOXRMZGcvcnBNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJHUTdxeDBOZVJ6S2pGdVQ1RHE1b0JRIiwicGhvbmVJZCI6ImU2YTYxYTU5LTBjM2MtNGFmOC1hNjgzLWZlZGNjYmFjY2UzMSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlVFZBSmN2T2FKVFR1U3J4clRVSzlDcWpMdTg9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic1JvVzcxODkxZHhUWU9QSmI2NjZhVW5xd09vPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlRNRU5KR0FHIiwibWUiOnsiaWQiOiIyMzQ4MTA0NjU2OTkxOjZAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiS8KjbHZpbiDiiIXComjigqwg8J+YjvCfmI4ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ042WWxyNEZFSXpHNzdFR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjdpL1d3c1lBU2dybDVOYjRRZ0hORFc2RWRRY01aMWd1Q3hSajZ4Zm9mMVk9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjRLVDc0UmlrLzZxZXpocnVlanpVUmRpamhSbUNuNkY4NDgxQ0FqWXVzWlM0RlNwVWVOa2dWdjBrYjdIOEtxbXJ2VnVsL0RnMDF4TnAwN1Zaejl2cERRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJmQ1BxN2VtNERBZCtrMG0yUUJyaVROSVRDUi8yNFFUM0VrNFQxaExMR29WZ3ZtOWdINXdYZkJCcEdwUzlaODJZbGY1TjllOFlqNTZpUTMzRFlZQmZndz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDgxMDQ2NTY5OTE6NkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJlNHYxc0xHQUVvSzVlVFcrRUlCelExdWhIVUhER2RZTGdzVVkrc1g2SDlXIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE1MjAwNzk0LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU9TbCJ9"
+  "Gifted;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRU1iZGtLN2Rid21TSEVXVkxRb3lEUklSQkpEVFdvcTlaTGl3ME12ZnFGaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUtYWmZ6bDYyd09BaUxuQ3RjdEphdCtnMllMZnJJeEZQUWVKendhaDgyQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRTHBCS3h0Sm1heXRWUDhpYTlSNUM5TmNycS9xZmY3aUp0ckdiOVMwazNJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJL3FlaVpZZmV3L2xnS2FJM0FGSzJxVWNtUFJJMlVCSml3OVRiZ1IwNlFnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImtNL3pzTEpSOEdhLzVNSE5XQ1o1Q2xnQktURWI3Wm04Um4xVDR3ckJ5RWs9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklySzRRZWc5OEFLWkNqdzJnZXNiRUdUYm1kTHBrRndPUWVxMVNoT2tGdzg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicU5DTEEydU5pNU5lUXQyeXBURmY0aTlrbDVJZGNlZ1IzRHpYZERRUjhYQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUFhPbUZQcWFXTUJ3RVZ1MWZCOWFVcVlVb1NCbmlrYkRYRjJqZ2hIZmNsTT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ijd0cTJjZ3RsVE9sQlFSZlNuUGJTREk5bDI2NFptS3c2L202QXNQMHlFTlAxU3hyelVpOGorb0g0RGN4c2FyQXlCbXFjbGdsVVBFUUlaemx4Qy9RSkFRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzAsImFkdlNlY3JldEtleSI6IlFNbFpQRmhGNWZhT09iTEliUjRyb3ZyUEJsWERkOHh5VGwyUVJuSjdVWHM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0OTE1MTA2NjExN0BzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIzQTMxQTYzOTM3RDcxNDkwNDRDNiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzE1MjYxMjM3fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIwUE5oWW1kRFNBaWdDM3pQQ2JSSDhRIiwicGhvbmVJZCI6IjY1ZGRmMmQ0LWExNmUtNDczNS04N2NkLTZkODkxMzY5MTZlYyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJERFFoTlhmUHdlZk8ralRyZ3hPV29BU2pOVWc9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBBMm0vYjluNGJGVTVmbWJsVEZoT1NCY3NZYz0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0o2OStMZ0pFTEdlODdFR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IlNraithR3Y3bUJ0WEQxUjlKRFpsWTdPaTd4bU81eERUakpPQmlpdko4bUE9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkJUQkYvQ2xVQ1hHOWF3QUZVcmtNZWx1TTI2aG9walZBZHo4bHBqWlZFclUvenJoeHFFVWV2RzNEU3dwcGpRNXpLV3lXVjdoS2dWQ1dhS1BVa2NNU0FBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJDZ3JreXN5cWRuQlQ3ZHQ0TEYvTCtFVHlsZFVDNFk2Nzc0SUplQ1FaVm05V0dENGQvTjFVQjNwRzNEMko0NGw4VmlROVY1VW0vaGN4WmRXQzhsSGJCQT09In0sIm1lIjp7ImlkIjoiMjM0OTE1MTA2NjExNzo1QHMud2hhdHNhcHAubmV0IiwibGlkIjoiMTkyMDMyODUzMjc5MjE6NUBsaWQiLCJuYW1lIjoiQ3lwaGVyIMOMbMOpcsOtb2zDundhIPCfjYDwn5KO4p2k77iP8J+TjCJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ5MTUxMDY2MTE3OjVAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVXBJL21ocis1Z2JWdzlVZlNRMlpXT3pvdThaanVjUTA0eVRnWW9yeWZKZyJ9fV0sInBsYXRmb3JtIjoiaXBob25lIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE1MjYxMjM1LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUhGbCJ9"
 module.exports = {
   menu: process.env.MENU || "2", /*Leave to Default else bot will Crash*/
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || ",",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "3.0.0",
   caption: process.env.CAPTION || "*Cypher Ilerioluwa Creation*",
-  author: process.env.PACK_AUTHER || "Gifted Tech",
+  author: process.env.PACK_AUTHER || "Cypher Ilerioluwa",
   packname: process.env.PACK_NAME || "Gifted-Md♥️",
   botname: process.env.BOT_NAME || "Cypher Bots",
   ownername: process.env.OWNER_NAME || "Cypher Bots",
